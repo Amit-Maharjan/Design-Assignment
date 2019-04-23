@@ -1,0 +1,490 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.left{
+    float: left;
+}
+
+/*For Hamburger*/
+.topnav a{
+    display: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.topnav a.icon {
+    float: right;
+    display: block;
+    color: white;
+}
+
+.topnav.responsive {
+    position: relative;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    display: block;
+    text-align: left;
+    padding: 5px;
+    margin-left: 240px;
+}
+
+.logo{
+    float: left;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+h1{
+    float:right;
+    font-size: 35px;
+}
+
+header{
+    padding: 10px;
+}
+
+.fa{
+    padding:18px;
+}
+
+.header-content, .welcome-content, .smart-content, .talented-content, .elegant-content, .package,.tweets-content, .top-footer-content{
+    margin: auto;
+    width:  350px;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.welcome-data img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smart-data-block h3{
+    color:white;
+    font-size: 20px;
+    padding:10px;
+}
+
+.smart-data-block{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.smart-data{
+    margin-bottom: 30px;
+}
+
+.smart-content{
+    padding: 10px;
+}
+
+.talented-data{
+    padding-bottom: 10px;
+}
+
+.talented-data-block{
+    width:245px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    padding:20px 10px 10px 10px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.talented-data-block h3{
+    color:rgb(108, 195, 114);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.talented-data-block button{
+    background-color: rgb(108, 195, 114);
+    border:none;
+    border-radius: 2px;
+    width: 90%;
+    padding:10px;
+    margin-top: 20px;
+}
+
+.follow{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: 10px;
+    letter-spacing: 2px;
+}
+
+.elegant-content .title{
+    line-height: 40px;
+}
+
+.elegant-content{
+    padding-bottom: 20px;
+}
+
+.elegant-data-block{
+    text-align: center;
+    width:40%;
+    float: left;
+    margin: 10px;
+}
+
+.elegant-data-block img{
+    width: 100%;
+    margin: 5px 10px;
+}
+
+.dot-dot img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+
+.package-data li{
+    background-color: rgb(240 , 240, 240);
+    border: 1px solid rgb(216, 216, 216);
+    color: rgb(97, 97, 97);
+    padding: 10px;
+}
+
+.package-data ul{
+    margin: 20px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.package-data li button{
+    border: none;
+    background-color: white;
+    border-radius: 2px;
+    float: right;
+    margin-top:10px;
+}
+
+.text{
+    text-align: center;
+    padding-bottom:10px;
+}
+
+.tweets-content{
+    text-align: center;
+    padding: 10px;
+}
+
+.header-right-corner{
+    display: none;
+}
+
+.tweets-content img{
+    padding: 20px;
+}
+
+.tweets-title h3{
+    padding:10px;
+}
+
+.top-footer-content{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.icon{
+    padding: 10px;
+}
+
+.map{
+    background-image: url("../images/google-map.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+
+.contact-us{
+    background-color: rgb(55, 54, 54);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(235, 79, 78);
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 15%;
+    top: 24%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.contact-us h3{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.package-data li:first-child{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.package-data li:last-child{
+    border-radius: 0px 0px 5px 5px;
+}
+
+.package-data .position-relative{
+    position: relative;
+}
+
+.package-data .position-relative img{
+    position: absolute;
+    top:90%;
+    left:45%;
+    width: 20px;
+}
+
+.package{
+    margin-bottom: 10px;
+}
+
+.arrow1{
+    float: left;
+}
+
+.arrow2{
+    float: right;
+}
+
+img.welcome-arrow-1, img.elegant-arrow-1{
+    width: 10px;
+    float: left;
+}
+
+img.welcome-arrow-2, img.elegant-arrow-2{
+    width: 10px;
+    float: right;
+}
+
+.welcome-data{
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.slider-1{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
+.slider-2{
+  position: absolute;
+  top: 50%;
+  right:0%;
+}
+
+.elegant-data{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*For Ipad View*/
+@media (min-width: 768px) {
+    .header-content, .welcome-content, .smart-content, .talented-content, .elegant-content, .package, .tweets-content, .top-footer-content{
+        margin: auto;
+        width:  758px;
+    }
+
+    .topnav.responsive a{
+        margin-left: 550px;
+    }
+
+    .smart-data-block{
+        width: 33%;
+        float:left;
+    }
+
+    .elegant-data-block{
+        width: 22%;
+    }
+
+    .package-data ul{
+      width: 30%;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .package-data ul.package-data-1{
+      position: absolute;
+      bottom:18px;
+      left:0px;
+    }
+
+    .package-data ul.package-data-2{
+      position: absolute;
+      bottom:18px;
+      left: 33.7%;
+    }
+
+    .package-data ul.package-data-3{
+      position: absolute;
+      bottom:18px;
+      right: 0px;
+    }
+
+    .elegant-content{
+      height: 460px;
+    }
+
+    .talented-data-block{
+      display: inline-block;
+      margin-top: 20px;
+      margin-left: 90px;
+    }
+
+    .icon{
+      float: right;
+    }
+
+    .copy-right{
+      float: left;
+
+    }
+
+    .package-data{
+      position: relative;
+      height: 240px;
+    }  
+
+    .top-footer-content{
+        padding: 0px 10px;
+    }
+
+    .copy-right{
+        padding-top: 18px;
+    }
+}
+
+/*For Laptop View*/
+@media (min-width: 992px) {
+    .header-content, .welcome-content, .smart-content, .talented-content, .elegant-content, .package, .tweets-content, .top-footer-content{
+        margin: auto;
+        width:  950px;
+    }
+
+    .topnav a.icon{
+        display: none;
+    }
+
+    .topnav a{
+        display: inline-block;
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .topnav a:hover{
+        background-color: rgb(35, 35, 36);
+        border-radius: 5px;
+    }
+
+    .topnav{
+        float: right;
+        margin: 8px 0px;
+    }
+
+    header{
+        padding: 25px 0px;
+    }
+
+    .talented-data-block{
+        float:left;
+        width:22%;
+        margin: 10px;
+    }
+
+    .talented-data-block h3{
+        font-size: 22px;
+    }
+
+    .logo{
+        margin-top: 0px;
+    }
+
+    .header-right-corner{
+        position: absolute;
+        top:0px;
+        left:1455px;
+        display: inline-block;
+    }
+
+    .elegant-content{
+        height: 510px;
+    }
+
+    img.welcome-arrow-1{
+        position: relative;
+        right: 150px;
+        width: 40px;
+    }
+
+    img.welcome-arrow-2{
+        position: relative;
+        left: 150px;
+        width: 40px;
+    }
+
+    img.elegant-arrow-1{
+        position: relative;
+        right: 115px;
+    }
+
+    img.elegant-arrow-2{
+        position: relative;
+        left: 115px;
+    }
+
+    .arrow1{
+        position: relative;
+        right:70px;
+    }
+
+    .arrow2{
+        position: relative;
+        left: 70px;
+    }
+
+    .contact-us{
+        width: 615px;
+        margin-left: 230px;
+        margin-right: 230px;
+    }
+ }

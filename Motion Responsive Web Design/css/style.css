@@ -1,0 +1,121 @@
+header{
+    background-color: rgb(245, 98, 98);
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Bariol Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bariol Regular'), url('../fonts/Bariol_Regular_0.woff') format('woff');
+}
+
+body{
+    font-family: Bariol Regular;
+}
+
+.logo a{
+    color: white;
+}
+
+.topnav.responsive a:hover{
+    color: black;
+}
+
+.welcome{
+    background-color: rgb(235, 79, 78);
+}
+
+.smart{
+    background-color: rgb(35, 35, 36);
+}
+
+.smart-data-block p{
+    color: rgb(231, 76, 60);
+    font-size: 18px;
+}
+
+.red{
+    color: rgb(231, 76, 60); 
+}
+
+.talented{
+    background-color: rgb(108, 195, 114);
+}
+
+.talented-data-block{
+    background-color: white;
+}
+
+.green{
+    color: rgb(107, 179, 111);
+}
+
+.elegant-content h3{
+    color: black;
+    font-size: 40px;
+}
+
+.elegant{
+    background-color: rgb(240, 240, 240);
+}
+
+.font-50{
+    font-size: 40px;
+}
+
+.package-data li:first-child{
+    background-color: white;
+    color: rgb(235, 79, 78);
+    font-size: 20px;
+}
+
+.package-data li:first-child::first-line{
+    font-size: 40px;
+    color: rgb(97, 97, 97);
+}
+
+.package-data li:last-child{
+    background-color: rgb(97, 97, 97);
+    color: white;
+}
+
+.package-data li button:hover{
+    background-color: rgb(108, 195, 114);
+}
+
+.package-data li.bg-red{
+    background-color: rgb(235, 79, 78);
+}
+
+.text, .text a, .contact-us a{
+    color:rgb(235, 79, 78);
+}
+
+.text a:hover, .tweets-data a, .black{
+    color: black;
+}
+
+.tweets, .talented-data-block button:hover{
+    background-color: rgb(235, 79, 78);
+}
+
+.tweets-title h3{
+    color: white;
+    font-size: 40px;
+}
+
+.tweets{
+    line-height: 20px;
+}
+
+.top-footer{
+    background-color: rgb(35, 35, 36);
+}
+
+.white, .copy-right, .copy-right a:hover, .contact-us a:hover, .tweets-data a:hover{
+    color: white;
+}
