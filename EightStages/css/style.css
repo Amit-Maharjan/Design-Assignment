@@ -1,0 +1,138 @@
+header{
+    background-color: rgb(125, 216, 232);
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-right a:hover{
+    color: grey;
+}
+
+.header-right-top{
+    font-size: 15pt;
+}
+
+.nav-row{
+    background-color: rgb(245, 245, 245);
+}
+
+.small-box-sub-topic{
+    background-color: rgb(47, 193, 217);
+}
+
+footer a:hover{
+    color:black;
+}
+
+footer a{
+    color: grey;
+}
+
+  /* Handle on hover */
+  .main-2nd-column-data::-webkit-scrollbar-thumb:hover {
+    background: rgb(47, 193, 217); 
+  }
+
+  .black{
+    color: black;
+}
+
+.text a{
+    color: rgb(99, 182, 196);
+}
+
+.text a:hover{
+    color:black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.main-2nd-column hr{
+    color: rgb(216, 216, 216);
+}
+
+.line-1{
+    font-weight: bold;
+    font-size: 9pt;
+}
+
+.line-2 a{
+    font-size: 11pt;
+    font-weight: bold;
+    color: black;
+}
+
+.line-3, .line-4{
+    font-size: 9pt;
+}
+
+.font-11{
+    font-size: 11pt;
+}
+
+.data-in-3rd-column{
+    font-size: 9pt;
+}
+
+.main-data li:hover{
+    background-color: white;
+    color: rgb(99, 182, 196);
+}
+
+.main-data{
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 25px;
+}
+
+.nav-row li:hover{
+    background-color: white;
+}
+
+.blue a{
+    color: rgb(99, 182, 196);
+}
+
+.red{
+    color: rgb(213, 63, 28);
+}
+
+.nav-row-right li:hover{
+    background-color: rgb(245, 245, 245);
+} 
+
+.nav-row-right a:hover{
+    color: rgb(125, 216, 232);
+}
+
+.search-text button:hover{
+    background-color: white;
+}
+
+.search-button:hover{
+    background-color: rgb(203, 239, 246);
+}
+
+.disable a:hover{
+    color: grey;
+}
+
+.footer-logo:hover{
+    color: black;
+}
+
+.goto-top button a:hover{
+    color:black;
+}
+
+.green{
+    color: rgb(112, 150, 32);
+}
