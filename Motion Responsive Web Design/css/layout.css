@@ -39,7 +39,7 @@ body {
 .responsive-nav {
   background-color: rgb(255, 110, 110);
   position: absolute;
-  width: 33%;
+  width: 50%;
   right: 0px;
   top: 82px;
   z-index: 1;
@@ -95,6 +95,12 @@ header {
 .top-footer-content {
   margin: auto;
   width: 350px;
+}
+
+.welcome,
+.elegant,
+.tweets {
+  position: relative;
 }
 
 .title {
@@ -162,6 +168,7 @@ h2 {
   width: 90%;
   padding: 10px;
   margin-top: 20px;
+  font-family: Bariol Regular;
 }
 
 .follow {
@@ -170,6 +177,10 @@ h2 {
   position: relative;
   right: 10px;
   letter-spacing: 2px;
+}
+
+.elegant {
+  border-bottom: 2px solid rgb(216, 216, 216);
 }
 
 .elegant-content .title {
@@ -201,7 +212,8 @@ h2 {
 
 .package-data li {
   background-color: rgb(240, 240, 240);
-  border: 1px solid rgb(216, 216, 216);
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(216, 216, 216);
   color: rgb(97, 97, 97);
   padding: 10px;
 }
@@ -220,6 +232,7 @@ h2 {
   border-radius: 2px;
   float: right;
   margin-top: 10px;
+  font-family: Bariol Regular;
 }
 
 .text {
@@ -306,14 +319,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-.arrow1 {
-  float: left;
-}
-
-.arrow2 {
-  float: right;
-}
-
 img.welcome-arrow-1,
 img.elegant-arrow-1 {
   width: 10px;
@@ -327,26 +332,46 @@ img.elegant-arrow-2 {
 }
 
 .welcome-data {
-  position: relative;
   padding-bottom: 20px;
 }
 
 .slider-1 {
   position: absolute;
-  top: 50%;
-  left: 0%;
+  top: 60%;
+  left: 1%;
 }
 
 .slider-2 {
   position: absolute;
-  top: 50%;
-  right: 0%;
+  top: 60%;
+  right: 1%;
+}
+
+.elegant-slider-1 {
+  position: absolute;
+  top: 55%;
+  left: 2%;
+}
+
+.elegant-slider-2 {
+  position: absolute;
+  top: 55%;
+  right: 5%;
 }
 
 .elegant-data {
-  position: relative;
   margin-left: auto;
   margin-right: auto;
+}
+
+.arrow1 {
+  position: absolute;
+  left: 0%;
+}
+
+.arrow2 {
+  position: absolute;
+  right: 0%;
 }
 
 /*For Ipad View*/
@@ -380,24 +405,24 @@ img.elegant-arrow-2 {
 
   .package-data ul.package-data-1 {
     position: absolute;
-    bottom: 18px;
+    bottom: 10px;
     left: 0px;
   }
 
   .package-data ul.package-data-2 {
     position: absolute;
-    bottom: 18px;
+    bottom: 10px;
     left: 33.7%;
   }
 
   .package-data ul.package-data-3 {
     position: absolute;
-    bottom: 18px;
+    bottom: 10px;
     right: 0px;
   }
 
   .elegant-content {
-    height: 460px;
+    height: 480px;
   }
 
   .talented-data {
@@ -434,6 +459,18 @@ img.elegant-arrow-2 {
 
   .text {
     margin-bottom: 20px;
+  }
+
+  .elegant-slider-1 {
+    position: absolute;
+    top: 40%;
+    left: 1.5%;
+  }
+
+  .elegant-slider-2 {
+    position: absolute;
+    top: 40%;
+    right: 0.55%;
   }
 }
 
@@ -501,49 +538,29 @@ img.elegant-arrow-2 {
   }
 
   .elegant-content {
-    height: 510px;
+    height: 530px;
   }
 
-  img.welcome-arrow-1 {
-    position: relative;
-    right: 150px;
-    width: 40px;
-  }
-
+  img.welcome-arrow-1,
   img.welcome-arrow-2 {
-    position: relative;
-    left: 150px;
     width: 40px;
-  }
-
-  img.elegant-arrow-1 {
-    position: relative;
-    right: 115px;
-  }
-
-  img.elegant-arrow-2 {
-    position: relative;
-    left: 115px;
-  }
-
-  .arrow1 {
-    position: relative;
-    right: 70px;
-  }
-
-  .arrow2 {
-    position: relative;
-    left: 70px;
   }
 
   .contact-us {
     width: 50%;
+    font-size: 20px;
   }
 
   .tweets-data {
     text-align: left;
     line-height: 30px;
     font-style: italic;
+    font-size: 20px;
+  }
+
+  .tweets-content {
+    font-size: 20px;
+    line-height: 25px;
   }
 
   h2 {
@@ -557,5 +574,43 @@ img.elegant-arrow-2 {
 
   .tweets-title {
     padding-top: 25px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .slider-1 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+
+  .slider-2 {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+  }
+
+  .elegant-slider-1 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+
+  .elegant-slider-2 {
+    position: absolute;
+    top: 45%;
+    right: 7%;
+  }
+
+  .arrow1 {
+    position: absolute;
+    left: 5%;
+  }
+
+  .arrow2 {
+    position: absolute;
+    right: 5%;
   }
 }

@@ -1,138 +1,139 @@
-header{
-    background-color: rgb(125, 216, 232);
+header {
+  background-color: rgb(125, 216, 232);
 }
 
-body{
-    font-family: 'Muli', sans-serif;
+body {
+  font-family: "Muli", sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.header-right a:hover{
-    color: grey;
+.header-right a:hover {
+  color: grey;
 }
 
-.header-right-top{
-    font-size: 15pt;
+.header-right-top {
+  font-size: 15pt;
 }
 
-.nav-row{
-    background-color: rgb(245, 245, 245);
+.nav-row {
+  background-color: rgb(245, 245, 245);
 }
 
-.small-box-sub-topic{
-    background-color: rgb(47, 193, 217);
+.small-box-sub-topic {
+  background-color: rgb(47, 193, 217);
 }
 
-footer a:hover{
-    color:black;
+footer a:hover {
+  color: black;
 }
 
-footer a{
-    color: grey;
+footer a {
+  color: grey;
 }
 
-  /* Handle on hover */
-  .main-2nd-column-data::-webkit-scrollbar-thumb:hover {
-    background: rgb(47, 193, 217); 
-  }
-
-  .black{
-    color: black;
+/* Handle on hover */
+.main-2nd-column-data::-webkit-scrollbar-thumb:hover {
+  background: rgb(47, 193, 217);
 }
 
-.text a{
-    color: rgb(99, 182, 196);
+.black {
+  color: black;
 }
 
-.text a:hover{
-    color:black;
+.text a {
+  color: rgb(99, 182, 196);
 }
 
-.bold{
-    font-weight: bold;
+.text a:hover {
+  color: black;
 }
 
-.main-2nd-column hr{
-    color: rgb(216, 216, 216);
+.bold {
+  font-weight: bold;
 }
 
-.line-1{
-    font-weight: bold;
-    font-size: 9pt;
+.main-2nd-column hr {
+  color: rgb(216, 216, 216);
 }
 
-.line-2 a{
-    font-size: 11pt;
-    font-weight: bold;
-    color: black;
+.line-1 {
+  font-weight: bold;
+  font-size: 9pt;
 }
 
-.line-3, .line-4{
-    font-size: 9pt;
+.line-2 a {
+  font-size: 11pt;
+  font-weight: bold;
+  color: black;
 }
 
-.font-11{
-    font-size: 11pt;
+.line-3,
+.line-4 {
+  font-size: 9pt;
 }
 
-.data-in-3rd-column{
-    font-size: 9pt;
+.font-11 {
+  font-size: 11pt;
 }
 
-.main-data li:hover{
-    background-color: white;
-    color: rgb(99, 182, 196);
+.data-in-3rd-column {
+  font-size: 9pt;
 }
 
-.main-data{
-    background-color: rgb(245, 245, 245);
-    padding-bottom: 25px;
+.main-data li:hover {
+  background-color: white;
+  color: rgb(99, 182, 196);
 }
 
-.nav-row li:hover{
-    background-color: white;
+.main-data {
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 25px;
 }
 
-.blue a{
-    color: rgb(99, 182, 196);
+.nav-row li:hover {
+  background-color: white;
 }
 
-.red{
-    color: rgb(213, 63, 28);
+.blue a {
+  color: rgb(99, 182, 196);
 }
 
-.nav-row-right li:hover{
-    background-color: rgb(245, 245, 245);
-} 
-
-.nav-row-right a:hover{
-    color: rgb(125, 216, 232);
+.red {
+  color: rgb(213, 63, 28);
 }
 
-.search-text button:hover{
-    background-color: white;
+.nav-row-right li:hover {
+  background-color: rgb(245, 245, 245);
 }
 
-.search-button:hover{
-    background-color: rgb(203, 239, 246);
+.nav-row-right a:hover {
+  color: rgb(125, 216, 232);
 }
 
-.disable a:hover{
-    color: grey;
+.search-text button:hover {
+  background-color: white;
 }
 
-.footer-logo:hover{
-    color: black;
+.search-button:hover {
+  background-color: rgb(203, 239, 246);
 }
 
-.goto-top button a:hover{
-    color:black;
+.disable a:hover {
+  color: grey;
 }
 
-.green{
-    color: rgb(112, 150, 32);
+.footer-logo:hover {
+  color: black;
+}
+
+.goto-top button a:hover {
+  color: black;
+}
+
+.green {
+  color: rgb(112, 150, 32);
 }
