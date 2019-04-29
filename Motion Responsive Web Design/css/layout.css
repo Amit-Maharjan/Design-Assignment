@@ -535,6 +535,7 @@ img.elegant-arrow-2 {
     top: 0px;
     right: 0px;
     display: inline-block;
+    z-index: 1;
   }
 
   .elegant-content {
